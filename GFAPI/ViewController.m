@@ -35,7 +35,7 @@ NSString *expires;
     api_key = @"PUT_YOUR_KEY_HERE";
     api_private_key = @"PUT_YOUR_PRIVATE_KEY_HERE";
     http_method = @"GET";
-    route = @"forms/2/entries";  //This is the route which will be added next to the base url. Here I'm sayin GET forms with ID 2 entries
+    route = @"forms/1/entries";  //This is the route which will be added next to the base url. Here I'm sayin GET forms with ID 1 entries. You should see what your form ID is.
     expires = @"1577923200";    //This is the UNIX time
     
     //SIGNATURE MAKING START
