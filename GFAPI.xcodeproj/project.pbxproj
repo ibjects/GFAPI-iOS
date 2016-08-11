@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A641EF46AA7CF24894DD186 /* libPods-GFAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0240E854BB7A57EF7CF8B13C /* libPods-GFAPI.a */; };
+		BEFA82D31D5C64AB00E98D7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFA82D21D5C64AB00E98D7F /* main.m */; };
+		BEFA82D61D5C64AB00E98D7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFA82D51D5C64AB00E98D7F /* AppDelegate.m */; };
+		BEFA82D91D5C64AB00E98D7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFA82D81D5C64AB00E98D7F /* ViewController.m */; };
+		BEFA82DC1D5C64AB00E98D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFA82DA1D5C64AB00E98D7F /* Main.storyboard */; };
+		BEFA82DE1D5C64AB00E98D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFA82DD1D5C64AB00E98D7F /* Assets.xcassets */; };
+		BEFA82E11D5C64AB00E98D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFA82DF1D5C64AB00E98D7F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0240E854BB7A57EF7CF8B13C /* libPods-GFAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GFAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5DF1B61D443FA511BBB785 /* Pods-GFAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFAPI/Pods-GFAPI.release.xcconfig"; sourceTree = "<group>"; };
+		962758710B73D713EE8B503B /* Pods-GFAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFAPI/Pods-GFAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		BEFA82CE1D5C64AB00E98D7F /* GFAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFA82D21D5C64AB00E98D7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEFA82D41D5C64AB00E98D7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEFA82D51D5C64AB00E98D7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEFA82D71D5C64AB00E98D7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEFA82D81D5C64AB00E98D7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEFA82DB1D5C64AB00E98D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEFA82DD1D5C64AB00E98D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEFA82E01D5C64AB00E98D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEFA82E21D5C64AB00E98D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEFA82CB1D5C64AB00E98D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A641EF46AA7CF24894DD186 /* libPods-GFAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FFBF289BC9FA5E7614BB295 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				962758710B73D713EE8B503B /* Pods-GFAPI.debug.xcconfig */,
+				7D5DF1B61D443FA511BBB785 /* Pods-GFAPI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEFA82C51D5C64AB00E98D7F = {
+			isa = PBXGroup;
+			children = (
+				BEFA82D01D5C64AB00E98D7F /* GFAPI */,
+				BEFA82CF1D5C64AB00E98D7F /* Products */,
+				7FFBF289BC9FA5E7614BB295 /* Pods */,
+				F1ACC9ABCBFCB21D849B7F7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEFA82CF1D5C64AB00E98D7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEFA82CE1D5C64AB00E98D7F /* GFAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEFA82D01D5C64AB00E98D7F /* GFAPI */ = {
+			isa = PBXGroup;
+			children = (
+				BEFA82D41D5C64AB00E98D7F /* AppDelegate.h */,
+				BEFA82D51D5C64AB00E98D7F /* AppDelegate.m */,
+				BEFA82D71D5C64AB00E98D7F /* ViewController.h */,
+				BEFA82D81D5C64AB00E98D7F /* ViewController.m */,
+				BEFA82DA1D5C64AB00E98D7F /* Main.storyboard */,
+				BEFA82DD1D5C64AB00E98D7F /* Assets.xcassets */,
+				BEFA82DF1D5C64AB00E98D7F /* LaunchScreen.storyboard */,
+				BEFA82E21D5C64AB00E98D7F /* Info.plist */,
+				BEFA82D11D5C64AB00E98D7F /* Supporting Files */,
+			);
+			path = GFAPI;
+			sourceTree = "<group>";
+		};
+		BEFA82D11D5C64AB00E98D7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEFA82D21D5C64AB00E98D7F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1ACC9ABCBFCB21D849B7F7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0240E854BB7A57EF7CF8B13C /* libPods-GFAPI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEFA82CD1D5C64AB00E98D7F /* GFAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFA82E51D5C64AB00E98D7F /* Build configuration list for PBXNativeTarget "GFAPI" */;
+			buildPhases = (
+				AF7C48C57FFB52842AC791AD /* [CP] Check Pods Manifest.lock */,
+				BEFA82CA1D5C64AB00E98D7F /* Sources */,
+				BEFA82CB1D5C64AB00E98D7F /* Frameworks */,
+				BEFA82CC1D5C64AB00E98D7F /* Resources */,
+				AF7425F7E8543E53A16F3C4E /* [CP] Embed Pods Frameworks */,
+				7FD391A8D62C1C600B854636 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFAPI;
+			productName = GFAPI;
+			productReference = BEFA82CE1D5C64AB00E98D7F /* GFAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEFA82C61D5C64AB00E98D7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "MindGem Studios";
+				TargetAttributes = {
+					BEFA82CD1D5C64AB00E98D7F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BEFA82C91D5C64AB00E98D7F /* Build configuration list for PBXProject "GFAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEFA82C51D5C64AB00E98D7F;
+			productRefGroup = BEFA82CF1D5C64AB00E98D7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEFA82CD1D5C64AB00E98D7F /* GFAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEFA82CC1D5C64AB00E98D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFA82E11D5C64AB00E98D7F /* LaunchScreen.storyboard in Resources */,
+				BEFA82DE1D5C64AB00E98D7F /* Assets.xcassets in Resources */,
+				BEFA82DC1D5C64AB00E98D7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FD391A8D62C1C600B854636 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFAPI/Pods-GFAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF7425F7E8543E53A16F3C4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFAPI/Pods-GFAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF7C48C57FFB52842AC791AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEFA82CA1D5C64AB00E98D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFA82D91D5C64AB00E98D7F /* ViewController.m in Sources */,
+				BEFA82D61D5C64AB00E98D7F /* AppDelegate.m in Sources */,
+				BEFA82D31D5C64AB00E98D7F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEFA82DA1D5C64AB00E98D7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFA82DB1D5C64AB00E98D7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEFA82DF1D5C64AB00E98D7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFA82E01D5C64AB00E98D7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEFA82E31D5C64AB00E98D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEFA82E41D5C64AB00E98D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEFA82E61D5C64AB00E98D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962758710B73D713EE8B503B /* Pods-GFAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GFAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGS.GFAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEFA82E71D5C64AB00E98D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5DF1B61D443FA511BBB785 /* Pods-GFAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GFAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MGS.GFAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEFA82C91D5C64AB00E98D7F /* Build configuration list for PBXProject "GFAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFA82E31D5C64AB00E98D7F /* Debug */,
+				BEFA82E41D5C64AB00E98D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEFA82E51D5C64AB00E98D7F /* Build configuration list for PBXNativeTarget "GFAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFA82E61D5C64AB00E98D7F /* Debug */,
+				BEFA82E71D5C64AB00E98D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEFA82C61D5C64AB00E98D7F /* Project object */;
+}
