@@ -61,6 +61,8 @@ NSString *expires;
    // sample URL is http://mydomain.com/gravityformsapi/forms/1?api_key=fd144510ac&signature=Nj6zoDHF0wAxuFynQPFF29U3%2FEE%3D&expires=1424785599
     
     NSString *string = [NSString stringWithFormat:@"%@%@?api_key=%@&signature=%@&expires=%@",BaseURLString,route,api_key,signature,expires];
+    //By default, only 10 results are retrieved.  If you have more entries in your form you should uncomment the line below and change the 20 to which ever number you want to get in one call.
+    //NSString *string = [NSString stringWithFormat:@"%@%@?api_key=%@&signature=%@&expires=%@&paging[page_size]=20",BaseURLString,route,api_key,signature,expires];
     NSString *escapedPath = [string stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
